@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: white;
+    font-family: "Do Hyeon", sans-serif;
+}
+
+
+
+:root {
+    --cor-principal: #15003C;
+    --cor-secundaria: #59BEFF;
+}
+
+body{
+    background-image: url(./img/background.png);
+    background-color: var(--cor-principal);
+    background-size: cover;   
+}
+
+.listaUl{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 30px;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 8%;
+}
+
+.aNav{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+img.imgNav{
+    width: 40%;
+}
+
+a:hover{
+    color: #5900ff;
+}
+
+/*============================================================================*/
+
+.container-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 25vh 5vw;
+}
+
+.infors{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+}
+
+strong{
+    color: var(--cor-secundaria);
+}
+
+.infors h1{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.infors p{
+    font-family: sans-serif;
+    font-weight: 100;
+
+    padding: 5% 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 5%;
+}
+
+.links p{
+    font-weight: 600;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.imgIconLink{
+    width: 25%;
+    color: var(--cor-secundaria);
+}
+
+.divLinksGit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+    border: solid var(--cor-secundaria) 2px;
+    border-radius: 5px;
+    padding:2% 11%;
+}
+
+.divLinksDin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+    border: solid var(--cor-secundaria) 2px;
+    border-radius: 5px;
+    margin-top: 1.2vh;
+    padding:2% 10%;
+}
+
+.imgPerfil{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgPerfilImg{
+    width: 60%;
+}
+
+.imgHab{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgHabImg{
+    width: 80%;
+}
+
+/*============================================*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: solid #59bfff56 2px;
+    
+}
+
+footer img{
+    padding: 1vh 0 0 0;
+    width: 8%;
+}
+
+footer p{
+    color: #B9B9B9;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding: 1% 0;
+}
+
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*================================PROJETOS====================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+
+.container-geral-projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 25vh 3vw;
+}
+
+.infors-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.infors-projetos h1{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.infors-projetos p{
+    font-family: sans-serif;
+    font-weight: 100;
+
+    padding: 3% 0;
+}
+
+.imgsProjetos{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 5%;
+    padding: 5vh 1vw;
+}
+
+.imgsProjetosImg{
+    width: 20vw;
+}
+
+@media screen and (max-width: 850px){
+
+    *{
+        color: var(--cor-secundaria);
+    }
+    .container-geral{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        
+        gap: 5%;
+        padding: 5vh 3vh;
+    }
+
+    .imgPerfil{
+        width: 75%;
+    }
+
+    .imgPerfilImg{
+        width: 100%;
+    }
+
+    .imgHab{
+        width: 75%;
+    }
+    
+    .imgHabImg{
+        width: 100%;
+    }
+
+    footer{        
+        gap: 5%;
+        flex:auto;
+    }
+    
+    footer img{
+        width: 20vw;
+    }
+
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*================================PROJETOS====================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+/*============================================================================*/
+
+.titulo{
+    color: white;
+}
+
+.descricao{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.container-geral-projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 5vh 3vh;
+}
+
+.infors-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.infors-projetos h1{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.infors-projetos p{
+    font-family: sans-serif;
+    font-weight: 100;
+
+    padding: 3% 0;
+}
+
+.imgsProjetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 5vh 1vw;
+}
+
+.imgsProjetosImg{
+    width: 70vw;
+margin-top: 4%;}
+
+
+}
