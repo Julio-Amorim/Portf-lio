@@ -28,6 +28,10 @@ body{
     margin-top: 30px;
 }
 
+.listaUl-mobile{
+    display: none;
+}
+
 li{
     list-style-type: none;
     display: flex;
@@ -224,6 +228,55 @@ footer p{
 
 @media screen and (max-width: 850px){
 
+    /*===============MENU==================*/
+
+    header{
+        position: relative;
+
+    }
+
+    .navBar-mobile{
+        padding: 3% 3%;
+    }
+
+    .listaUl{
+        display: none;
+    }
+
+    .listaUl-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5%;
+        padding: 3% 0;
+        background-color: #2f0087b3;
+        border-radius: 10px;
+
+    }
+
+    .listaLiMobile{
+        padding-top: 4%;
+    }
+
+    .invisible{
+        display: none;
+    }
+
+    .buttonMenu{
+        width: 5%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 4%;
+        top: 10%;
+    }
+
+    .buttonmenuImg{
+        margin-top: 10px;
+
+    }
+    
     *{
         color: var(--cor-secundaria);
     }
