@@ -21,6 +21,10 @@ body{
     background-size: cover;   
 }
 
+.buttonMenu{
+    display: none;
+}
+
 .listaUl{
     display: flex;
     justify-content: center;
@@ -233,6 +237,10 @@ footer p{
     header{
         position: relative;
 
+    }
+
+    .buttonMenu{
+        display: block;
     }
 
     .navBar-mobile{
