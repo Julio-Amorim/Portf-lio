@@ -240,7 +240,7 @@ footer p{
     }
 
     .buttonMenu{
-        display: block;
+        display: inline;
     }
 
     .navBar-mobile{
